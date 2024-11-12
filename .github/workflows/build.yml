@@ -95,7 +95,5 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: aseprite_auto_action
-        path: |
-          libcrypto-1_1-x64.dll
-          ./build/bin/data
-          ./build/bin/aseprite.exe
+        path: 
+          ./build/
